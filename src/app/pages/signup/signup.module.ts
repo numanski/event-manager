@@ -8,6 +8,7 @@ import { IonicModule } from '@ionic/angular';
 import { SignupPage } from './signup.page';
 import { AuthModule } from 'src/app/shared-modules/auth.module';
 
+
 const routes: Routes = [
   {
     path: '',

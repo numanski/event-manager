@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import * as firebase from 'firebase/app';
-import 'firebase/firestore';
 import { AuthService } from '../user/auth.service';
 import 'firebase/firestore';
 import 'firebase/storage';
@@ -8,6 +7,7 @@ import 'firebase/storage';
 @Injectable({
   providedIn: 'root'
 })
+
 export class EventService {
   public eventListRef: firebase.firestore.CollectionReference;
   constructor(private authService: AuthService) { }

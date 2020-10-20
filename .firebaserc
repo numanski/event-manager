@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "event-manager-211ad": {
+      "hosting": {
+        "app": [
+          "event-manager-211ad"
+        ]
+      }
+    }
+  }
+}
